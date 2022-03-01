@@ -14,7 +14,7 @@ n <- length(unique(dat$facility_id))
 ## Time-invariant data, one row per subject:
 data.id <- dat[!duplicated(dat$subject_id), ]
 
-##Number of subjects wit.hin each facility:
+##Number of subjects within each facility:
 nf <- table(x = data.id$facility_id)
 
 n.subj <- c(as.vector(nf))
