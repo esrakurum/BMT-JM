@@ -4,7 +4,7 @@ nt <- 20
 gridPoints <- seq(0, 1, length.out = nt)
 
 
-nknots <- 20
+nknots <- 10
 
 
 ##Number of facilities:
