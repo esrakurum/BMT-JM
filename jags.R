@@ -7,7 +7,6 @@ model <- function ()
   betaZ1[1:nt] <- BetaBs[, 1:ncF] %*% Bs.betaZ1[1:ncF]
   betaZ2[1:nt] <- BetaBs[, 1:ncF] %*% Bs.betaZ2[1:ncF]
   
-  
   for (i in 1:dim_data.id) 
   {
   ## Longitudinal Part
