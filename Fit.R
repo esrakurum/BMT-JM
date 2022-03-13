@@ -5,8 +5,6 @@ library(rjags)
 library(R2WinBUGS)
 library(parallel)
 
-
-
 ###Set the directory
 setwd("....") 
 
